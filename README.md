@@ -14,6 +14,7 @@ Ruby automation test with page object model
 9. Get into that freelancer's profile
 10. Check that each attribute value is equal to one of those stored in the structure created in #67
 
+
 ## How to run
 
 Navigate to **/test** folder and run below command,
