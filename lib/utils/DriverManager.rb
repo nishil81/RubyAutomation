@@ -12,7 +12,7 @@ class DriverManager
   def init(browser)
 
     if browser.to_s.eql? 'chrome'
-      chromeDriverPath = File.expand_path('lib/external_libs/chromedriver_win32/chromedriver.exe', Dir.pwd)
+      chromeDriverPath = File.expand_path('lib/external_libs/chromedriver_mac/chromedriver', Dir.pwd)
       Selenium::WebDriver.logger.info("browser -name  #{chromeDriverPath}")
       Selenium::WebDriver::Chrome.driver_path = chromeDriverPath
       @driver = Selenium::WebDriver.for :chrome
